@@ -15,7 +15,7 @@ function tinhTongXN(){
      tong +=  Math.pow(x,y);
      y++;
    }
-
+  
     document.getElementById("ketQua4").innerHTML = "Tổng: " +tong;
 }
 document.getElementById("btnTinh4").onclick = tinhTongXN;
